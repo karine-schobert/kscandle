@@ -1,0 +1,306 @@
+body{
+    font-family: 'Alex Brush', handwriting; 
+    width: 100%;
+    height: auto;
+    margin:0 ;
+    padding: 0;
+    text-decoration: none;
+}
+/********************************/
+/*navigation********************/
+/******************************/
+header, 
+.navigation-lien,
+ .titre-logo,
+  .list-navigation{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    height: auto;
+}
+
+.container-nav  {
+     display:flex;
+     flex-direction: row;
+     width:auto ;
+ 
+}
+
+.logo{
+    width: 8em;
+    height: 8em;
+    margin: 2em;
+}
+
+.titre-navigation{
+    font-size:5em ;
+    width:12em ;
+  
+}
+
+.list-navigation{
+margin-left: 12em;
+}
+
+
+.navigation-lien:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid blue;
+    margin:1em
+
+    
+}
+.lien {
+    list-style-type: none;
+    text-decoration: none;
+    font-size:2em;
+}
+
+.icone-navigation{
+    size: 1.08em;
+    margin: 1.02em;
+}
+
+/********************************/
+/***********MAIN****************/
+/******************************/
+
+/*section recherche-candle*/
+.container-candle-global{
+    margin-top: 3em;
+    
+}
+#candle{
+    display: flex;
+    flex-direction: column;
+}
+.recherche-candle{
+    display:flex;
+    flex-direction: column;
+ 
+}
+
+.recherche-titre{
+    margin-left:0.5em ;
+    font-size:2.5em ;
+}
+
+.form-candle{
+    display: flex;
+    width: 30em;
+    height:3em ;
+    margin-left: 2em;
+}
+.icone-location{
+background: rgb(223, 211, 211);
+border-radius:0.5em 0 0 0.5em ;
+}
+#store{
+    text-transform: uppercase ;
+    text-align: center;
+}
+
+#find{
+    width:10em ;
+    border-radius: 0 0.5em  0.5em 0;
+    background: rgb(223, 211, 211);
+}
+
+/*section filtre*/
+.filtre{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top:2em
+
+}
+
+.titre-filtre-candle{
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+
+
+.format-filtre, 
+.format{
+    display: flex;
+    align-items: center;
+    width: 60em;
+    height:3em ;
+    margin-left: 2em;
+
+}
+.icone-filtre{
+    height: 3em;
+    width:3em ;
+    border: 1px solid grey;
+    border-radius:50% ;
+} 
+.titre-filtre{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2em;
+}
+.format{
+    border: 1px solid rgb(218, 194, 194);
+    background: rgb(223, 211, 211);
+    border-radius:2em ;
+}
+/*section info*/
+.info{
+    display: flex;
+    width: 50em;
+    align-items: center;
+}
+.icone-info{
+    width:2em ;
+    height:2em ;
+    border-radius:50% ;
+    margin-left: 2em;
+}
+.para-info {
+    margin-left:2em ;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+/*container gauche*/
+.left-right{
+    display: flex;
+}
+#container-left{
+    background:rgba(133, 130, 130, 0.103) ;
+    width:60% ;
+    height:auto ;
+    margin: 2em; 
+    border-radius:0.5em ; 
+   
+}
+
+.titre-left{
+    margin: 1em;
+    font-size:2em ;
+    font-weight: bold;
+}
+
+.card-left{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+.gourmet-candle{
+    background-color:white;
+    margin: 1em;
+    border-radius:1em  ;
+    box-shadow: 5px 5px 5px grey;
+}
+.card{
+    width:15em;
+    margin:0.4em;
+    border-radius: 1.5em;
+}
+.image-left{
+    width:15em ;
+    height:10em ;
+    border-radius: 1em  1em 0 0;
+}
+.description{
+    font-weight: bold;
+    font-size:1em ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0.2em;
+}
+.icon{
+    margin-top:0.5em;
+ 
+}
+.fa-star {
+	color: rgb(54, 54, 207);
+	cursor: pointer;
+	padding: 0.0625rem;
+    
+}
+.para-end{
+    margin: 1em;
+    font-weight: bold;
+    font-size:1.5em ;
+}
+
+/*container de droite*/
+
+#container-right{
+    background:rgba(133, 130, 130, 0.103) ;
+    width:30% ;
+    height:auto ;
+    margin: 2em;
+    border-radius:0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-right{
+    margin: 2em;
+    border-radius:1em  ;
+    width: 30em;
+   margin-top: 1em;
+}
+.titre-right{
+    margin:1em;
+    width: 12em;
+    font-size:2em ;
+    font-weight: bold;
+
+}
+
+.link-right{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    border-radius: 1.5em;
+    height:10em ;
+    width: 30em;
+    margin:1em;
+    box-shadow: 5px 5px 5px grey;
+  
+}
+.card-figure{
+    display: flex;
+    width: auto;
+    margin: 0.4em;
+    border-radius: 1.5em;
+
+}
+.image-right{
+    width:10em ;
+    height:9em ;
+    border-radius: 1em  0em 0 1em;
+}
+
+.description-right {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size:1em ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:2em ;
+    width: auto;
+}
+
+/*container boutique*/
+
+
+
+
+
+
+
+
+
+
+
+
+
