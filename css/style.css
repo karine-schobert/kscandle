@@ -17,7 +17,7 @@ header,
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background: rgb(230, 224, 224);
     height: auto;
 }
 
@@ -41,7 +41,7 @@ header,
 }
 
 .list-navigation{
-margin-left: 12em;
+margin-left: 1em;
 }
 
 
@@ -174,7 +174,7 @@ border-radius:0.5em 0 0 0.5em ;
 }
 #container-left{
     background:rgba(133, 130, 130, 0.103) ;
-    width:60% ;
+    width:auto ;
     height:auto ;
     margin: 2em; 
     border-radius:0.5em ; 
@@ -199,12 +199,12 @@ border-radius:0.5em 0 0 0.5em ;
     box-shadow: 5px 5px 5px grey;
 }
 .card{
-    width:15em;
+    width:18em;
     margin:0.4em;
     border-radius: 1.5em;
 }
 .image-left{
-    width:15em ;
+    width:18em ;
     height:10em ;
     border-radius: 1em  1em 0 0;
 }
@@ -234,7 +234,7 @@ border-radius:0.5em 0 0 0.5em ;
 
 #container-right{
     background:rgba(133, 130, 130, 0.103) ;
-    width:30% ;
+    width:auto ;
     height:auto ;
     margin: 2em;
     border-radius:0.5em;
@@ -243,7 +243,7 @@ border-radius:0.5em 0 0 0.5em ;
 }
 
 .card-right{
-    margin: 2em;
+    margin: 7em;
     border-radius:1em  ;
     width: 30em;
    margin-top: 1em;
@@ -257,14 +257,11 @@ border-radius:0.5em 0 0 0.5em ;
 }
 
 .link-right{
-    display: flex;
-    flex-direction: row;
-    background-color:white;
-    border-radius: 1.5em;
-    height:10em ;
-    width: 30em;
-    margin:1em;
-    box-shadow: 5px 5px 5px grey;
+    background:rgba(133, 130, 130, 0.103) ;
+    width:auto ;
+    height:auto ;
+    margin: 2em; 
+    border-radius:0.5em ; 
   
 }
 .card-figure{
@@ -272,12 +269,14 @@ border-radius:0.5em 0 0 0.5em ;
     width: auto;
     margin: 0.4em;
     border-radius: 1.5em;
+    background-color:white;
 
 }
 .image-right{
     width:10em ;
     height:9em ;
     border-radius: 1em  0em 0 1em;
+    margin: 0.5em;
 }
 
 .description-right {
@@ -287,15 +286,141 @@ border-radius:0.5em 0 0 0.5em ;
     font-size:1em ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left:2em ;
+    margin-top: 1em;
     width: auto;
+    text-transform: uppercase;
+}
+.para-candle-right{
+    text-transform: none;
 }
 
 /*container boutique*/
 
+#container-boutique{
+    display:flex;
+    flex-direction: column;
+    width:auto ;
+    height:auto ;
+    margin: 2em; 
+    border-radius:0.5em ; 
+    margin:2em;
+    width: auto;
+    height: auto;
+}
+.boutique{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
 
 
+.titre-boutique{
+    margin-left: 1em;
+}
+.link-boutique{
+    background:rgba(133, 130, 130, 0.103) ;
+    width:auto ;
+    height:auto ;
+    margin: 0 1em 1em 0.5em;
+    border-radius:0.5em ; 
+}
+.card-boutique-one{
+  
+    border-radius:0 0 1em 1em
+}
+
+.image-boutique-one{
+    height:28em;
+    width: 22em;
+    object-fit: cover;
+    margin:0 ;
+    padding:0;
+}
 
 
+.description-boutique{
+    padding-top: 1em;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    height:2.5em ;
+    text-align: center;
+    
+}
+.boutique-column{
+    display: flex;
+    flex-direction: column;
+}
+.card-boutique-column{
+    border-radius:0 0 1em 1em;
+}
+.image-boutique-column{
+    height:12em;
+    width: 22em;
+    object-fit: cover;
+    margin:0 ;
+    padding:0;
+}
+figcaption{
+    margin: 0;
+    padding: 0;
+}
+
+
+/********************************/
+/***********FOOTER**************/
+/******************************/
+
+.footer-global{
+    display: flex;
+    height: auto;
+    background: rgb(230, 224, 224);
+    margin: 2em;
+   
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom:5em ;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left:2em;
+    margin-right: 2em;
+}
+.titre-footer{
+    text-align: center;
+    font-size: 2em;
+}
+.lien-footer
+{
+ 
+    list-style-type: none;
+    color: black;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5em;
+}
+.list-footer{
+    margin-top: 0.2em;
+}
+.icone-footer{
+    width:1em ;
+    height: 1em;
+    padding-right: 1em;
+}
+.reseaux{
+    text-decoration: none;
+    color: black;
+}
 
 
 
