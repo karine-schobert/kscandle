@@ -41,26 +41,27 @@ header,
 }
 
 .list-navigation{
-margin-left: 1em;
+    margin-left: 3em;
 }
 
 
-.navigation-lien:hover{
-    transform: scale(1.1);
-    border-bottom: 1px solid blue;
-    margin:1em
 
-    
-}
 .lien {
     list-style-type: none;
     text-decoration: none;
-    font-size:2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.5em;
+    color: black;
 }
 
+.lien:hover{
+    transform: scale(1.05);
+    border-bottom: 1px solid rgb(172, 172, 245);
+    margin:1.5em;
+}
 .icone-navigation{
     size: 1.08em;
-    margin: 1.02em;
+    margin: 1em;
 }
 
 /********************************/
@@ -89,10 +90,14 @@ margin-left: 1em;
 
 .form-candle{
     display: flex;
-    width: 30em;
+    width: 22em;
     height:3em ;
     margin-left: 2em;
+    border: 1px solid #f2f2f2;
+    border-radius:1em ;
 }
+
+
 .icone-location{
 background: rgb(223, 211, 211);
 border-radius:0.5em 0 0 0.5em ;
@@ -100,12 +105,20 @@ border-radius:0.5em 0 0 0.5em ;
 #store{
     text-transform: uppercase ;
     text-align: center;
+    border: none;
 }
 
 #find{
     width:10em ;
     border-radius: 0 0.5em  0.5em 0;
     background: rgb(223, 211, 211);
+    color:black;
+    border:none ;
+}
+#find:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(155, 154, 154);
 }
 
 /*section filtre*/
@@ -118,7 +131,7 @@ border-radius:0.5em 0 0 0.5em ;
 }
 
 .titre-filtre-candle{
-    margin-left: 0.5em;
+    margin:0.5em 1em 1em;
     font-size: 2em;
 }
 
@@ -129,8 +142,7 @@ border-radius:0.5em 0 0 0.5em ;
     align-items: center;
     width: 60em;
     height:3em ;
-    margin-left: 2em;
-
+    padding:0 ;
 }
 .icone-filtre{
     height: 3em;
@@ -147,6 +159,11 @@ border-radius:0.5em 0 0 0.5em ;
     border: 1px solid rgb(218, 194, 194);
     background: rgb(223, 211, 211);
     border-radius:2em ;
+}
+.format:hover{
+    transform: scale(1.05);
+    background: rgb(149, 148, 148);
+    color: aliceblue;
 }
 /*section info*/
 .info{
@@ -174,7 +191,7 @@ border-radius:0.5em 0 0 0.5em ;
 }
 #container-left{
     background:rgba(133, 130, 130, 0.103) ;
-    width:auto ;
+    width:70% ;
     height:auto ;
     margin: 2em; 
     border-radius:0.5em ; 
@@ -190,21 +207,22 @@ border-radius:0.5em 0 0 0.5em ;
 .card-left{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3em;
+    justify-content: space-around;
+    margin-top: 2em;
 }
 .gourmet-candle{
     background-color:white;
-    margin: 1em;
+    margin: 3em 1em ;
     border-radius:1em  ;
     box-shadow: 5px 5px 5px grey;
 }
 .card{
-    width:18em;
+    width:15em;
     margin:0.4em;
     border-radius: 1.5em;
 }
 .image-left{
-    width:18em ;
+    width:15em ;
     height:10em ;
     border-radius: 1em  1em 0 0;
 }
@@ -214,21 +232,33 @@ border-radius:0.5em 0 0 0.5em ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin:0.2em;
 }
+.para-candle-left{
+    text-transform: none;
+    font-weight: 100;
+    margin:0;
+}
 .icon{
-    margin-top:0.5em;
+   margin-top:0.8em;
  
 }
 .fa-star {
-	color: rgb(54, 54, 207);
 	cursor: pointer;
 	padding: 0.0625rem;
     
 }
-.para-end{
-    margin: 1em;
-    font-weight: bold;
-    font-size:1.5em ;
+.blue{
+    color: rgb(54, 54, 207); 
 }
+.grey{
+    color:rgb(238, 235, 235) ;
+}
+.para-end{
+    margin-left:2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 30em;
+}
+
 
 /*container de droite*/
 
@@ -243,10 +273,10 @@ border-radius:0.5em 0 0 0.5em ;
 }
 
 .card-right{
-    margin: 7em;
+    margin: 2em 2em 5em 1em;
     border-radius:1em  ;
     width: 30em;
-   margin-top: 1em;
+    margin-top: 1em;
 }
 .titre-right{
     margin:1em;
@@ -267,7 +297,7 @@ border-radius:0.5em 0 0 0.5em ;
 .card-figure{
     display: flex;
     width: auto;
-    margin: 0.4em;
+    margin: 0.8em 1em;
     border-radius: 1.5em;
     background-color:white;
 
@@ -292,78 +322,116 @@ border-radius:0.5em 0 0 0.5em ;
 }
 .para-candle-right{
     text-transform: none;
+    font-weight: 100;
+    margin:0 ;
 }
+.icon-right{
+    margin-top:4em ;
+}
+.icon-right-emplacement{
+    margin-top:3em 
+}
+
 
 /*container boutique*/
 
 #container-boutique{
     display:flex;
     flex-direction: column;
-    width:auto ;
     height:auto ;
-    margin: 2em; 
+    margin: 2em;
     border-radius:0.5em ; 
-    margin:2em;
-    width: auto;
-    height: auto;
+    background-color:rgb(224, 219, 219) ;
 }
 .boutique{
     display: flex;
     flex-direction: row;
-    width: auto;
+    margin:0;
+    padding:0;
+    width: 100%;
 }
 
 
 .titre-boutique{
-    margin-left: 1em;
+    margin: 1em;
+    font-size: 2em;
+    font-weight: bold;
 }
+
+/*great card*/
 .link-boutique{
-    background:rgba(133, 130, 130, 0.103) ;
-    width:auto ;
+    width:22em;
     height:auto ;
-    margin: 0 1em 1em 0.5em;
+    margin: 2em 0.4em 2em ;
+    padding: 1em;
     border-radius:0.5em ; 
 }
 .card-boutique-one{
-  
-    border-radius:0 0 1em 1em
+    box-shadow:0 0 16px  black;
+    border-radius:1em ;
+    margin:1em;
 }
 
 .image-boutique-one{
-    height:28em;
-    width: 22em;
+    height:30em;
+    width: 20em;
     object-fit: cover;
     margin:0 ;
     padding:0;
+    border-radius:1em 1em 0 0;
 }
 
 
 .description-boutique{
-    padding-top: 1em;
+    /* padding-top: 1em; */
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: white;
+    width: 20em;
     height:2.5em ;
     text-align: center;
-    
+    border-radius:0 0 1em 1em
+}
+/*litle card*/
+
+.link-boutique-column{
+    width:22em;
+    height:auto ;
+    margin: 2em 0.4em -3em ;
+    padding: 1em;
+    border-radius:0.5em ; 
 }
 .boutique-column{
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 .card-boutique-column{
-    border-radius:0 0 1em 1em;
+    box-shadow:0 0 16px  black;
+    border-radius:1em ;
+    margin:1em;
+   
 }
 .image-boutique-column{
     height:12em;
-    width: 22em;
+    width: 20em;
     object-fit: cover;
-    margin:0 ;
     padding:0;
+    border-radius:1em 1em 0 0;
 }
-figcaption{
+.description-boutique-column{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    width: 20em;
+    height:2.5em ;
+    text-align: center;
+    border-radius:0 0 1em 1em;
+    padding:0 ;
+}
+figcaption, .description-boutique-column{
     margin: 0;
-    padding: 0;
+    padding: 0  ;
 }
 
 
@@ -375,7 +443,7 @@ figcaption{
     display: flex;
     height: auto;
     background: rgb(230, 224, 224);
-    margin: 2em;
+    margin: 2em; 
    
 }
 
