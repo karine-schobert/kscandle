@@ -1,0 +1,33 @@
+@media screen and (max-width: 650px) {
+ 
+    header, 
+    .navigation-lien,
+     .titre-logo,
+      .list-navigation{
+        min-width:350px ;
+        max-width: 650px;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(230, 224, 224);
+        height: auto;
+    }
+
+    
+.container-nav  {
+    display:flex;
+    flex-direction: column;
+    min-width:350px ;
+    max-width: 650px;
+
+}
+
+.logo{
+    width: 4em;
+    height: 4em;
+
+}     
+    
+ 
+
+}

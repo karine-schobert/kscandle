@@ -159,6 +159,7 @@ border-radius:0.5em 0 0 0.5em ;
     border: 1px solid rgb(218, 194, 194);
     background: rgb(223, 211, 211);
     border-radius:2em ;
+    margin-left: 1em;
 }
 .format:hover{
     transform: scale(1.05);
@@ -212,7 +213,7 @@ border-radius:0.5em 0 0 0.5em ;
 }
 .gourmet-candle{
     background-color:white;
-    margin: 3em 1em ;
+    margin: 4em 4em ;
     border-radius:1em  ;
     box-shadow: 5px 5px 5px grey;
 }
@@ -362,7 +363,7 @@ border-radius:0.5em 0 0 0.5em ;
 .link-boutique{
     width:22em;
     height:auto ;
-    margin: 2em 0.4em 2em ;
+    margin: 2em 7.4em 2em ;
     padding: 1em;
     border-radius:0.5em ; 
 }
@@ -467,6 +468,7 @@ figcaption, .description-boutique-column{
 .titre-footer{
     text-align: center;
     font-size: 2em;
+    margin-left: -2em;
 }
 .lien-footer
 {
