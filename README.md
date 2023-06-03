@@ -1,3 +1,4 @@
+ ![image](images/Logo.png)
 # KS CANDLE
 
 This is a front-end integration project of a responsive website in HTML5 / CSS3.
@@ -17,6 +18,8 @@ In the menu, the links “Our best candles” and “Our shops” are anchors th
 - No element is cut and the text has a sufficient size whatever the size
   of the medium.
 - Portable version, tablet, pc
+- I made the logo on canvas 
+- Set up media queries
 - Font style: [font-bunny](https://fonts.bunny.net).
 - Icon with: [font-bunny](https://fontawesome.com/) and [icone8](https://icones8.fr/icons/set/contact)
 
@@ -27,7 +30,7 @@ In the menu, the links “Our best candles” and “Our shops” are anchors th
 
 # DECOUPAGE DES MAQUETTES 
 
-1. Realization of models in pc, laptop, tablet format with [balsamic]
+1. Realization of models in pc, laptop, tablet format with [FIGMA](https://www.figma.com/fr/)
 1. Gather resources (images, icons, fonts)
 2. Definition of the HTML structure of the site so that it is clean and coherent
 3. Integration of the different parts: Header, main, footer
@@ -36,6 +39,8 @@ In the menu, the links “Our best candles” and “Our shops” are anchors th
 6. This project was imagined from A to Z, the images were taken on the internet and 
    free to right
 
-# VOS SUGGESTIONs
+![VERSION DESKTOP](images/Desktop.png)
+
+# VOS SUGGESTIONS
 
 I am in training, do not hesitate to send me your suggestions
