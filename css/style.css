@@ -340,7 +340,8 @@ border-radius:0.5em 0 0 0.5em ;
     display:flex;
     flex-direction: column;
     height:auto ;
-    margin: 2em;
+    width: auto;
+    margin: 2em; 
     border-radius:0.5em ; 
     background-color:rgb(224, 219, 219) ;
 }
@@ -363,7 +364,7 @@ border-radius:0.5em 0 0 0.5em ;
 .link-boutique{
     width:22em;
     height:auto ;
-    margin: 2em 7.4em 2em ;
+    margin: 2em 4em ;
     padding: 1em;
     border-radius:0.5em ; 
 }
