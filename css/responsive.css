@@ -1,5 +1,441 @@
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1500px){
+
+ body{
+    background: green;
+} 
+.titre-navigation{
+    font-size: 3em;
+}
+
+
+
+.container-candle-global,
+.recherche-candle,
+.filtre
+{
+    display: flex;
+    flex-direction: column;
+    margin-top:1em;
+}
+
+.recherche-titre{
+    margin-left: 1em;
+  
+}
+.form-candle{
+    display: flex;
+    flex-direction: row;
+    width: 17em;
+    height:3em ;
+    margin-left: 2em;
+    border: 1px solid #f2f2f2;
+    border-radius:1em ;
+}
+
+.filtre{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top:2em
+
+}
+.titre-filtre{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -1em;
+}
+.format-filtre, 
+.format{
+    display: flex;
+    align-items: center;
+    width: 60em;
+    height:3em ;
+    padding:0 ;
+}
+.titre-filtre{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2em;
+}
+
+.info{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+
+.left-right
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin:0 ;
+   
+}
+
+#container-left,
+.card-left
+
+.gourmet-candle{
+    background-color:white;
+    border-radius:1em  ;
+    box-shadow: 5px 5px 5px grey;
+    margin:0.5em 1.5em;
+}
+.card{
+    width:15em;
+    margin:0.4em;
+    border-radius: 1.5em;
+}
+.image-left{
+    width:15em ;
+    height:10em ;
+    border-radius: 1em  1em 0 0;
+}
+
+
+#container-right{
+   
+    background:rgba(133, 130, 130, 0.103) ;
+    width:70% ;
+    height:auto ;
+    margin: 2em;
+    border-radius:0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.card-figure 
+{
+    display: flex;
+    border-radius: 1.5em;
+    background-color:white;
+    width: 70%;
+    height: 70%;
+    margin-left: 5em;
+    
+    }
+.image-right{
+    width:10em ;
+    height:10em ;
+    border-radius: 1em  0em 0 1em;
+    margin: 0.5em;
+}
+.description-right{
+   margin: 0.5em 1em;
+}
+.card-right{
+    margin-top:-2em; 
+    margin-left:6em;
+    width: 40em;
+}
+#card-position {
+     margin: 0.5em ;
+}
+
+.para-end, 
+.titre-right,
+.titre-boutique{
+    margin-left: 1em;
+    width: 20em;
+}
+
+#container-boutique,
+.boutique
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+    margin-left: 14em;
+    padding: 0;
+    background-color:rgb(224, 219, 219) ;
+}
+
+.boutique{
+    margin-left:5em;
+}
+
+.card-boutique-one{
+    width: 84%;
+    margin-top: 1em;
+}
+.link-boutique,
+.link-boutique-column{
+    margin:auto;
+}
+
+.footer-global{
+    display: flex;
+    height: auto;
+    background: rgb(230, 224, 224);
+    margin: 2em; 
+   
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom:5em ;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left:2em;
+    margin-right: 2em;
+}
+.titre-footer{
+    text-align: center;
+    font-size: 2em;
+    margin-left: -2em;
+}
+.lien-footer
+{
  
+    list-style-type: none;
+    color: black;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5em;
+}
+.list-footer{
+    margin-top: 0.2em;
+}
+.icone-footer{
+    width:1em ;
+    height: 1em;
+    padding-right: 1em;
+}
+.reseaux{
+    text-decoration: none;
+    color: black;
+}
+
+}
+/*********************************************************************************************/
+@media screen and (max-width: 992px){
+
+    body{
+        background:pink ;
+}
+header, 
+.navigation-lien,
+ .titre-logo,
+  .list-navigation,
+  .container-nav{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(230, 224, 224);
+    height: auto;
+    margin:0;
+}
+.titre-navigation{
+    font-size:2em ;
+    width:9em ;
+    margin-left: 3.5em;
+  
+}
+.list-navigation{
+  margin:-1em 5em 2em 4em;
+}
+
+.container-candle-global,
+.recherche-candle,
+.filtre
+{
+    display: flex;
+    flex-direction: column;
+    margin-top:1em;
+}
+
+.recherche-titre{
+    text-align: center;
+}
+
+
+.form-candle{
+    display: flex;
+    text-align: center;
+    width: 17em;
+    height:3em ;
+    margin-left: 17em;
+    border: 1px solid #f2f2f2;
+    border-radius:1em ;
+}
+
+.format-filtre, 
+li, 
+.format{
+    display: flex;
+    flex-direction: column;
+    margin : 0em 2em 1em 2em;
+    width: 95%;
+   
+}
+
+.icone-filtre{
+    margin-left: -16em;
+}
+.titre-filtre{
+    margin:-2em 1.5em 02em 1em;
+}
+
+.info{
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+
+.left-right
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin:0 ;
+   
+}
+
+#container-left,
+.card-left
+
+.gourmet-candle{
+    background-color:white;
+    border-radius:1em  ;
+    box-shadow: 5px 5px 5px grey;
+    margin:0.5em 1.5em;
+}
+.card{
+    width:15em;
+    margin:0.4em;
+    border-radius: 1.5em;
+}
+.image-left{
+    width:15em ;
+    height:10em ;
+    border-radius: 1em  1em 0 0;
+}
+
+
+#container-right{
+   
+    background:rgba(133, 130, 130, 0.103) ;
+    width:100% ;
+    height:auto ;
+    margin: 2em;
+    border-radius:0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.card-figure 
+{
+    display: flex;
+    border-radius: 1.5em;
+    background-color:white;
+    width: 70%;
+    height: 70%;
+    margin-left: 5em;
+    
+    }
+.image-right{
+    width:10em ;
+    height:10em ;
+    border-radius: 1em  0em 0 1em;
+    margin: 0.5em;
+}
+.description-right{
+   margin: 0.5em 1em;
+}
+.card-right{
+    margin-top:-2em; 
+    margin-left:6em;
+    width: 40em;
+}
+#card-position {
+     margin: 0.5em ;
+}
+
+.para-end, 
+.titre-right,
+.titre-boutique{
+    margin-left: 1em;
+    width: 20em;
+}
+
+#container-boutique,
+.boutique
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(224, 219, 219) ;
+}
+
+.card-boutique-one{
+    width: 84%;
+    margin-top: 1em;
+}
+.link-boutique,
+.link-boutique-column{
+    margin:auto;
+}
+
+.footer-global, 
+.footer-section,
+.content,
+.lien-footer,
+.titre-footer
+  {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5em auto;
+    padding: 0;
+}
+
+#position-row li{
+   flex-direction: row;
+   margin: 0.5em ;
+}
+.list-footer{
+line-height: 0.5em;
+
+}
+}
+
+
+/******************************************************************************************/
+@media screen and (max-width: 768px) {
+ 
+
+    body{
+        background:blue ;
+}
     header, 
     .navigation-lien,
      .titre-logo,
@@ -11,6 +447,7 @@
         align-items: center;
         background: rgb(230, 224, 224);
         height: auto;
+        margin:0;
     }
     .titre-navigation{
         font-size:2em ;
@@ -19,8 +456,7 @@
       
     }
     .list-navigation{
-        margin-left: -3em;
-        margin-top:  -1em;
+      margin:-1em 5em 2em 4em;
     }
   
     .container-candle-global,
@@ -42,7 +478,7 @@
         text-align: center;
         width: 17em;
         height:3em ;
-        margin-left: 1.2em;
+        margin-left: 2.2em;
         border: 1px solid #f2f2f2;
         border-radius:1em ;
     }
@@ -56,6 +492,7 @@
         width: 95%;
        
     }
+   
     .icone-filtre{
         margin-left: -16em;
     }
@@ -64,7 +501,7 @@
     }
 
     .info{
-        margin-top: 45%;
+        margin-top: 25%;
         font-size: 20px;
     }
   
@@ -99,23 +536,25 @@
         border-radius: 1em  1em 0 0;
     }
 
-    .titre-right{
-        width: 10em;
-        text-align: center;
-        margin-left:3.2em ;
-    }
 
     #container-right{
        
         background:rgba(133, 130, 130, 0.103) ;
-        width:auto ;
+        width:100% ;
         height:auto ;
         margin: 2em;
         border-radius:0.5em;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         }
 
+    .titre-right{
+        margin-left:1em;
+        font-size: 1.5em;
+        width: 20em;
+    }
+  
     .card-figure 
     {
         display: flex;
@@ -136,28 +575,120 @@
        margin: 0.5em 1em;
     }
     .card-right{
-        margin-top:-2em;
+        margin-top:-2em; 
+        margin-left:-3.5em;
+        width: 30em;
     }
     #card-position {
-    margin: 0.5em ;
+         margin: 0.5em ;
+    }
+
+    .para-end{
+        margin-left: -1em;
+       text-align: center;
     }
 
     #container-boutique,
-    .boutique,
-    .link-boutique
+    .boutique
+   
     {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-top: 1em;
-        width: auto;
+        width: 100%;
         height: auto;
         margin: 0;
         padding: 0;
-
+        background-color:rgb(224, 219, 219) ;
     }
-  
-         
     
+    .card-boutique-one{
+        width: 84%;
+        margin-top: 1em;
     }
+    .link-boutique,
+    .link-boutique-column{
+        margin:auto;
+    }
+
+    .titre-boutique{
+        margin-left: 1em;
+    }
+   
+    .footer-global, 
+    .footer-section,
+    .content,
+    .lien-footer,
+    .titre-footer
+      {
+        display: flex;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0.5em auto;
+        padding: 0;
+    }
+   
+  #position-row li{
+       flex-direction: row;
+       margin: 0.5em ;
+  }
+  .list-footer{
+    line-height: 0.5em;
+
+  }
+    }
+
+
+/**************************************************************************************/
+@media screen and (max-width:350px)
+{
+    body{
+        background: orange;
+    }
+    .titre-navigation{
+        margin-left:1em;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        margin-top:7em;
+    }
+    
+    #card-boutique-column{
+        margin-right: 3em;
+    }
+
+    .titre-right{
+        margin-left:-1em;
+        width: 15em;
+        font-size: 25px;
+    }
+    .card-right{
+        margin-top:-2em; 
+        margin-left:2.4em;
+        width: 39.9em;
+        height: auto;
+       
+    }
+    .card-figure 
+    {
+        display: flex;
+        border-radius: 1.5em;
+        background-color:white;
+        width: 52%;
+        height: 70%;
+        margin-left: -2.2em;
+        
+        }
+    .link-boutique,
+    .link-boutique-column{
+        margin:0;
+        padding:0;
+    }
+}
+
+
 
