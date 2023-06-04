@@ -39,7 +39,7 @@ In the menu, the links “Our best candles” and “Our shops” are anchors th
 6. This project was imagined from A to Z, the images were taken on the internet and 
    free to right
 
-![VERSION DESKTOP](images/Desktop.png)
+![VERSION DESKTOP](images/Desktop.png) , ![VERSION MOBIL](images/mobil.png)
 
 # VOS SUGGESTIONS
 
