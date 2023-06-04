@@ -466,6 +466,9 @@ figcaption, .description-boutique-column{
     margin-left:2em;
     margin-right: 2em;
 }
+#content-trois{
+    width: 10em;
+}
 .titre-footer{
     text-align: center;
     font-size: 2em;
