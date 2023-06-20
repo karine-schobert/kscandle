@@ -53,6 +53,7 @@ kscandle est une entreprise fictive, proposant un outil de recherche de bougies.
 6. Validation W3C du CSS ![W3C-Css](images/W3Ccss.png)
 7. Ce projet a été imaginé de A à Z, les images ont été prises sur internet et
    libre de droit
+8.  Rédaction d'un cahier des charges a suivre [CDC](../kscandle/kscandle_cdc.pdf)
 
 
 
