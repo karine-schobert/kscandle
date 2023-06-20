@@ -1,21 +1,35 @@
  ![image](images/Logo.png)
+
 # KS CANDLE
 
 Il s'agit d'un projet d'intégration front-end d'un site web responsive en HTML5/CSS3.
 
 # CONTEXTE 
 
-kscandle is a fictitious company, offering a search tool for candles. The site allows users to find all types of candles and choose the store of their choice. The candles can also be filtered by theme, for example the style of the decorative, occasion or floral candle.C'est une pâge statique
+kscandle est une entreprise fictive, proposant un outil de recherche de bougies. Le site permet aux utilisateurs de trouver tous les types de bougies et de choisir le magasin de leur choix. Les bougies peuvent également être filtrées par thème, par exemple le style de la bougie décorative, d'occasion ou florale.C'est une page statique
 
 # FONCTIONNALITES
 
+`Menu`
+- Dans la navigation il y aura un logo , un titre, 3 liens de navigations (accueil, panier, contact )mais ne sont pas actifs pour le moment
+
+`Main`
+
 - Le champ de recherche est un champ de saisie dont le texte peut être modifié par l'utilisateur.
-Les filtres doivent changer d'apparence au survol.
-- Dans le menu, les liens « Nos meilleures bougies » et « Nos boutiques » sont des ancres qui doivent mener aux rubriques de la page.
+- Les filtres doivent changer d'apparence au survol. 
+- Il y aura un bloc d'images a gauche et à droite chacun aura un background gris clair
+- Chaque card aura un fond blanc et les bords arrondis
+- Concernant les images elles doivent êtres centrées et il y aura un titre, une description, est une notation client par des etoiles
+- Il y aura un bloc d'image qui se positionnera en dessous des 2 blocs droite et gauches
+
+`Footer`
+
+- 3 bloc centrés avec un titre (A propos de nous, restons connecter, nous contacter)
+- Mettre en place des icones (facebook, instagram, Youtube) 
 
 # CONTRAINTES TECHNIQUES
-- Aucun élément n'est coupé et le texte a une taille suffisante quelle que soit la taille
-  du médium.
+
+- Aucun élément n'est coupé et le texte a une taille suffisante 
 - Version portable, tablette, pc
 - J'ai fait le logo sur `canvas`
 - Configurer les requêtes médias
@@ -31,15 +45,15 @@ Les filtres doivent changer d'apparence au survol.
 # DECOUPAGE DES MAQUETTES 
 
 1. Réalisation de maquettes au format portable, portable avec [FIGMA](https://www.figma.com/fr/)
-1. Rassemblez des ressources (images, icônes, polices)
-2. Définition de la structure HTML du site pour qu'elle soit propre et cohérente
-3. Intégration des différentes parties : Header, main, footer
-4. Rédaction de CSS (en utilisant flexbox) et implémentation de points d'arrêt
-5. Validation W3C du CSS ![W3C-Css](images/W3Ccss.png)
-6. Ce projet a été imaginé de A à Z, les images ont été prises sur internet et
+ ![VERSION DESKTOP et MOBILE](images/format.png) 
+2. Rassemblez des ressources (images, icônes, polices)
+3. Définition de la structure HTML du site pour qu'elle soit propre et cohérente
+4. Intégration des différentes parties : Header, main, footer
+5. Rédaction de CSS (en utilisant flexbox) et implémentation de points d'arrêt
+6. Validation W3C du CSS ![W3C-Css](images/W3Ccss.png)
+7. Ce projet a été imaginé de A à Z, les images ont été prises sur internet et
    libre de droit
 
-![VERSION DESKTOP](images/Desktop.png) , ![VERSION MOBIL](images/mobil.png)
 
 
 ## DIFFICULTEES RENCONTREES 
