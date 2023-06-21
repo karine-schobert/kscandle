@@ -51,7 +51,7 @@ header,
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:1.5em;
-    color: black;
+    color: #000000;
 }
 
 .lien:hover{
@@ -112,7 +112,7 @@ border-radius:0.5em 0 0 0.5em ;
     width:10em ;
     border-radius: 0 0.5em  0.5em 0;
     background: rgb(223, 211, 211);
-    color:black;
+    color:000000;
     border:none ;
 }
 #find:hover{
@@ -147,7 +147,7 @@ border-radius:0.5em 0 0 0.5em ;
 .icone-filtre{
     height: 3em;
     width:3em ;
-    border: 1px solid grey;
+    border: 1px solid;
     border-radius:50% ;
 } 
 .titre-filtre{
@@ -182,7 +182,7 @@ border-radius:0.5em 0 0 0.5em ;
     margin-left:2em ;
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    color: 000000;
     font-weight: bold;
 }
 
@@ -215,7 +215,7 @@ border-radius:0.5em 0 0 0.5em ;
     background-color:white;
     margin: 4em 4em ;
     border-radius:1em  ;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px #808080;
 }
 .card{
     width:15em;
@@ -369,7 +369,7 @@ border-radius:0.5em 0 0 0.5em ;
     border-radius:0.5em ; 
 }
 .card-boutique-one{
-    box-shadow:0 0 16px  black;
+    box-shadow:0 0 16px  000000;
     border-radius:1em ;
     margin:1em;
 }
@@ -409,7 +409,7 @@ border-radius:0.5em 0 0 0.5em ;
     height: auto;
 }
 .card-boutique-column{
-    box-shadow:0 0 16px  black;
+    box-shadow:0 0 16px  000000;
     border-radius:1em ;
     margin:1em;
    
@@ -478,7 +478,7 @@ figcaption, .description-boutique-column{
 {
  
     list-style-type: none;
-    color: black;
+    color: 000000;
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 5em;
@@ -493,7 +493,7 @@ figcaption, .description-boutique-column{
 }
 .reseaux{
     text-decoration: none;
-    color: black;
+    color: 000000;
 }
 
 
